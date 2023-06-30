@@ -44,17 +44,33 @@
 
 // start >> array
 // Data produk dalam array
-var products = [
-  { name: "Product 1", price: 19.99 },
-  { name: "Product 2", price: 29.99 },
-  { name: "Product 3", price: 39.99 },
-];
+// var products = [
+//   { name: "Product 1", price: 19.99 },
+//   { name: "Product 2", price: 29.99 },
+//   { name: "Product 3", price: 39.99 },
+// ];
 
-// Menambahkan daftar produk ke dalam elemen <ul>
-var productList = document.getElementById("productList");
-products.forEach(function (product) {
-  var listItem = document.createElement("li");
-  listItem.textContent = product.name + " - $" + product.price;
-  productList.appendChild(listItem);
-});
+// // Menambahkan daftar produk ke dalam elemen <ul>
+// var productList = document.getElementById("productList");
+// products.forEach(function (product) {
+//   var listItem = document.createElement("li");
+//   listItem.textContent = product.name + " - $" + product.price;
+//   productList.appendChild(listItem);
+// });
 // end >> array
+
+// Start Object
+// let users = [
+//   {
+//     nama: "Aminuddin",
+//     age: 27,
+//     email: "muhammadaminuddintuban@gmail.com",
+//   },
+//   {
+//     nama: "Oblak",
+//     age: 22,
+//     email: "oblak@gmail.com",
+//   },
+// ];
+// console.log(users[1]);
+// End object
